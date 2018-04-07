@@ -20,7 +20,7 @@
     <!-- Styles -->
     @section('header-css')
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <link href="{{ asset('admin/coreui/css/style.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('admin/coreui-static/css/style.min.css') }}" rel="stylesheet">
     @show
 
     <!-- Header Vars -->
