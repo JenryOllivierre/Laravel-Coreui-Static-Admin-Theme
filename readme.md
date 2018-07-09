@@ -4,7 +4,7 @@ A laravel admin theme made from the coreui static theme for bootstrap 4.
 
 ## How To Install
 
-Run the composer command `composer require "jenryollivierre/laravel-coreui-static-admin-theme":"1.0.*"`
+Run the composer command `composer require "jenryollivierre/laravel-coreui-static-admin-theme":"1.*"`
 
 ## Configuration
 
