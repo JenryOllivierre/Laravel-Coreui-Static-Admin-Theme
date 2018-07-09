@@ -23,17 +23,17 @@ class ServiceProvider extends LaravelServiceProvider
         // Publish the views
         $this->publishes([
             __DIR__.'/views' => resource_path('views/vendor/coreui-static'),
-        ], 'views');
+        ], 'lcsat-views');
 
         // Publish config file
         $this->publishes([
             __DIR__.'/config.php' => config_path('coreui-static.php'),
-        ], 'config');
+        ], 'lcsat-config');
 
         // Publish assets
         $this->publishes([
             __DIR__.'/public' => Helper::getAssetsPath(),
-        ], 'public');
+        ], 'lcsat-public');
     }
 
     /**
