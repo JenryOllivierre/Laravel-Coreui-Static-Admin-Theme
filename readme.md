@@ -4,6 +4,8 @@
 
 Laravel Coreui Static Admin Theme is a bootstrap 4 theme made by [coreui](https://coreui.io) that has been re-packaged to work as an admin theme for your laravel application.
 
+![Laravel Coreui Static Admin Theme](admin-coreui-screenshot.png)
+
 ## How To Install
 
 Run the composer command `composer require jenryollivierre/laravel-coreui-static-admin-theme`
