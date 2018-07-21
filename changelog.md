@@ -1,4 +1,4 @@
-Version 1.0.1 - Version 1.1.0
+## 21 July 2018 - 1.1.0
 
 - Updated published tag names that are accessible through `php artisan vendor:publish --tag={name}`
 - Refactored the main layout file : the admin.blade.php file
@@ -8,7 +8,7 @@ Version 1.0.1 - Version 1.1.0
 - Updated the @yield('footer-vars') to be @yield('footer-js') in the foot section
 - Updated dependency versioning in composer.json file
 
-Version 1.0.0 - Version 1.0.1
+## 9 July 2018 - 1.0.1
 
 - Updated published tag names that are accessible through `php artisan vendor:publish --tag={name}`
 - Updated dependency versioning in composer.json file
