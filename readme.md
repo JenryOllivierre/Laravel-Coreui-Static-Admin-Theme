@@ -56,6 +56,10 @@ Keep in mind that in order to keep what was already predifined in a @section, ca
 - Use the developer tools and inspect the demo page to get an idea of mark up you can use to get some of the functionality that you desire, if the documentations haven't made it clear.
 - The classes given to the body html element influences the theme behaviour greatly so it's a good place to start. The file is found in the views/vendor/coreui-static/partials/header.blade.php file.
 
+## Changelog
+
+See our [changelog](https://github.com/JenryOllivierre/Laravel-Coreui-Static-Admin-Theme/blob/master/changelog.md) to keep abreast of any worthy changes we have made, before issuing any issues.
+
 ## Security Vulnerabilities
 
 If you discover any security vulnerability within the code, please send an e-mail to Jenry Ollivierre via [jenry@jenryollivierre.com](mailto:jenry@jenryollivierre.com).
