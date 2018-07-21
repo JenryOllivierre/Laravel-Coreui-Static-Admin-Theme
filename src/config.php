@@ -8,7 +8,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | This value is where you want the assets to be published when running the
-    | artisan vendor:publish / vendor:publish --tag=config command.
+    | artisan vendor:publish / vendor:publish --tag=lcsat-config command.
     |
     */
 
