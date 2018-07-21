@@ -30,4 +30,3 @@
     @yield('header-scripts')
 </head>
 <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden footer-fixed">
-    <div id="app">
