@@ -29,7 +29,7 @@
     </style>
 
     <!-- Header Vars -->
-    <script type="text/javascript">@yield('header-vars')</script>
+    <script type="text/javascript">@yield('header-js')</script>
 
     {{-- Scripts --}}
     @yield('header-scripts')

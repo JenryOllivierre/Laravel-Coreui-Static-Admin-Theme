@@ -1,6 +1,6 @@
     <!-- Custom Vars -->
     <script type="text/javascript">
-        @yield('footer-vars')
+        @yield('footer-js')
     </script>
 
     <!-- Scripts -->
