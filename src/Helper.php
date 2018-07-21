@@ -11,6 +11,6 @@ class Helper
      */
     public static function getAssetsPath()
     {
-        return config('coreui.assets_path', public_path('admin/');
+        return config('coreui.assets_path', public_path('admin/'));
     }
 }
