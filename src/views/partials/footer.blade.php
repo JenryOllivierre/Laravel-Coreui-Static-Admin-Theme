@@ -1,5 +1,3 @@
-    </div> <!-- #app -->
-
     <!-- Custom Vars -->
     <script type="text/javascript">
         @yield('footer-vars')
