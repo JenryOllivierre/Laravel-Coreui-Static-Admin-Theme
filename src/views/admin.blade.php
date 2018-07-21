@@ -7,14 +7,18 @@
 		{{-- Admin Bar --}}
 		@include('coreui-static::partials.admin-bar')
 
-	    {{-- Sidebar --}}
-	    @include('coreui-static::partials.sidebar')
+		{{-- Required by Coreui --}}
+		<div class="app-body">
 
-	    <!-- Main content -->
-	    @include('coreui-static::partials.main-content')
+		    {{-- Sidebar --}}
+		    @include('coreui-static::partials.sidebar')
 
-	    {{-- Aside --}}
-	    @include('coreui-static::partials.aside')
+		    <!-- Main content -->
+		    @include('coreui-static::partials.main-content')
+
+		    {{-- Aside --}}
+		    @include('coreui-static::partials.aside')
+		</div> <!-- .app-body -->
 
 		{{-- Footer Bar --}}
 		@include('coreui-static::partials.footer-bar')
