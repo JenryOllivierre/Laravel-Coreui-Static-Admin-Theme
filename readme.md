@@ -1,24 +1,26 @@
 # Laravel Coreui Static Admin Theme
 
-## Preamble
+## Introduction
 
-Laravel Coreui Static Admin Theme is a bootstrap 4 theme made by (coreui)[https://coreui.io] that has been re-packaged to work as an admin theme for your laravel application.
+Laravel Coreui Static Admin Theme is a bootstrap 4 theme made by [coreui](https://coreui.io) that has been re-packaged to work as an admin theme for your laravel application.
 
 ## How To Install
 
-Run the composer command `composer require "jenryollivierre/laravel-coreui-static-admin-theme":"1.*"`
+Run the composer command `composer require jenryollivierre/laravel-coreui-static-admin-theme`
 
 ## Getting Started
 
 ### 1 - Publish Files
 
-- Use the `php artisan vendor:publish` command to publish the necessary files. The assets, views and config files are tagged as 'lcsat-public', 'lcsat-views', 'lcsat-config' respectively so you can publish specifically with command `php artisan vendor:publish --tag={name}. It is recommended that you publish the config file first in the case that you may require a different path to publish the package assets than what is set as the default. By default the assets is published to public/admin. The views file will publish to views/vendor/coreui-static.
+- Use the `php artisan vendor:publish` command to publish the necessary files. The assets, views and config files are tagged as 'lcsat-public', 'lcsat-views', 'lcsat-config' respectively so you can publish specifically with command `php artisan vendor:publish --tag={name}`. It is recommended that you publish the config file first in the case that you may require a different path to publish the package assets than what is set as the default. By default the assets is published to public/admin. The views file will publish to views/vendor/coreui-static.
 
 ### 2 - Configure Files
 
 - Go to the published views in views/vendor/coreui-static folder and edit the admin.blade.php template to suit your needs. the views/vendor/coreui-static/partials folder contains all the sub views to make it easier for you to find your way around the files to edit to your heart's content.
 
-### 3 - Create your main layout view file and include the views/vendor/coreui-static/admin.blade.php file and you'll be up and running. Then as usual, in your pages, extend you main layout and get to work.
+### 3 - Create Your Layout
+
+- In your main layout file, include the views/vendor/coreui-static/admin.blade.php file and you'll be up and running. Then as usual, in your pages, extend you main layout and get to work.
 
 ## Available Section & Yield tags
 
@@ -38,7 +40,7 @@ Run the composer command `composer require "jenryollivierre/laravel-coreui-stati
 #### Footer Section & Yield Tags
 
 - @yield('footer-js') : add javascript code to foot section
-- @section('footer-scripts') : add javascript files to foot
+- @section('footer-scripts') : add more javascript files to foot
 
 Keep in mind that in order to keep what was already predifined in a @section, call the `@parent` code within the tags so that you don't over ride stuff that you want to keep.
 
